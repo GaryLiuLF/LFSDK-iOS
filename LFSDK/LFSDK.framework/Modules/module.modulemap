@@ -1,0 +1,6 @@
+framework module LFSDK {
+  umbrella header "LFSDK.h"
+
+  export *
+  module * { export * }
+}
