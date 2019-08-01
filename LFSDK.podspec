@@ -6,15 +6,15 @@ Pod::Spec.new do |s|
   s.homepage = "https://github.com/GaryLiuLF/LFSDK-iOS"
   s.author   = { 'Rush.D.Xzj' => 'xzjxylophone@gmail.com' }
   # s.social_media_url = "http://weibo.com/xzjxylophone"
-  s.source   = { :git => 'https://github.com/xzjxylophone/RXSDK-iOS.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/GaryLiuLF/LFSDK-iOS.git', :tag => s.version.to_s }
   s.description = %{
         LFSDK is a framework.
   }
-  s.vendored_frameworks = 'LFSDK/LFSDK.framework'
+  s.vendored_frameworks = 'LFSDK'
   s.resource_bundle = {
     'Paramount' => ['LFSDK/LFSDK.framework/LFSDK.bundle/*.*']
 }
-  s.source_files = 'LFSDK/LFSDK.framework/Headers/*.h'
+  s.source_files = 'LFSDK/LFSDK.framework/Headers'
   #s.frameworks = 'SystemConfiguration', 'Security', 'CoreGraphics', 'CoreTelephony'
   s.requires_arc = true
   #s.libraries = 'z', 'sqlite3', 'stdc++', 'iconv'
